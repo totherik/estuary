@@ -18,7 +18,7 @@ argv = minimist(process.argv.slice(2), {
         address:  'a',
         identity: 'i'
     },
-    defaults: {
+    default: {
         token:    process.env.GITHUB_TOKEN,
         event_id: process.env.GITHUB_EVENT_ID,
         url:      process.env.GITHUB_EVENT_URL || 'https://api.github.com/events',
