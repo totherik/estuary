@@ -1,0 +1,28 @@
+{
+  "name": "estuary",
+  "version": "1.0.0",
+  "description": "A zmq publisher of GitHub events",
+  "main": "index.js",
+  "bin": "bin/estuary.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "lint": "eslint index.js lib/*.js",
+    "dryrun": "(TARBALL=`npm pack` ; tar ztvf $TARBALL ; rm -f $TARBALL)"
+  },
+  "keywords": [
+    "github",
+    "events",
+    "zmq"
+  ],
+  "author": "Erik Toth <totherik@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "arroyo": "^1.0.0",
+    "minimist": "^1.1.0",
+    "zmq": "^2.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^0.8.2",
+    "tape": "^3.0.0"
+  }
+}
