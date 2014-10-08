@@ -1,11 +1,11 @@
-sluice
+estuary
 ======
 
 ZeroMQ GitHub Event Publisher.
 
 ```bash
-$ npm i -g sluice
-$ sluice -a "tcp://127.0.0.1:12345"
+$ npm i -g estuary
+$ estuary -a "tcp://127.0.0.1:12345"
 ```
 
 
