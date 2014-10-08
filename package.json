@@ -1,6 +1,6 @@
 {
   "name": "estuary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A zmq publisher of GitHub events",
   "main": "index.js",
   "bin": "bin/estuary.js",
